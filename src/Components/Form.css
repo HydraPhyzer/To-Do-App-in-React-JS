@@ -1,0 +1,39 @@
+.Form
+{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Form input
+{
+    width: 90%;
+    outline: none;
+    border-radius: 0px;
+    border:none;
+    padding: 5px;
+    order: 1;
+}
+.Form input:focus
+{
+    outline: none;
+}
+.Plus
+{
+    width: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Plus:hover
+{
+    cursor: pointer;
+}
