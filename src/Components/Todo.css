@@ -1,10 +1,11 @@
 .All-Todo
 {
-    background-color: #F6CD58;
+    background-color: white;
     margin: 15px 0px;
     border-radius: 5px;
     padding: 5px;
     position: relative;
+    color: black;
 } 
 .All-Todo i:hover
 {
@@ -12,7 +13,7 @@
 }
 .E,.X
 {
-    background-color: black;
+    background: linear-gradient(to right ,#ee0979,#ff6a00);
     border: none;
     padding: 5px;
     margin: 5px 0px 0px 0px;

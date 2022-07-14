@@ -24,7 +24,7 @@
 .Plus
 {
     width: 10%;
-    background-color: black;
+    background: linear-gradient(to right ,#ee0979,#ff6a00);
     color: white;
     text-align: center;
     order: 2;
