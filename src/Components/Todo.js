@@ -10,7 +10,7 @@ const Todo = (Props) => {
                 return(
                     <div className="All-Todo" key={Ind}>
                         <p>{Elem}</p>
-                        <i className="fa-solid fa-marker E"></i>
+                        <i className="fa-solid fa-marker E " onClick={()=>{Props.Edit(Ind,Elem)}}></i>
                         <i className="fa-solid fa-circle-xmark X" onClick={()=>{Props.Del(Ind)}}></i>
                     </div>
                 )
