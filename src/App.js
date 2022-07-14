@@ -1,5 +1,6 @@
 import './App.css'
 import Form from './Components/Form'
+import Todo from './Components/Todo'
 
 let App=()=>
 {
@@ -7,8 +8,7 @@ let App=()=>
         <div className='App'>
             <div className="App-Content">
                 <Form/>
-
-
+                <Todo/>
             </div>
         </div>
     )

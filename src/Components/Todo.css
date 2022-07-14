@@ -1,0 +1,22 @@
+.All-Todo
+{
+    background-color: #F6CD58;
+    margin: 15px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+} 
+.All-Todo i:hover
+{
+    cursor: pointer;
+}
+.E,.X
+{
+    background-color: black;
+    border: none;
+    padding: 5px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    color:white;
+    margin-right: 5px;
+}

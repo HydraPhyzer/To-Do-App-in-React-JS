@@ -8,3 +8,15 @@
     flex-direction: column;
     background-color: #568FF6;
 }
+.App-Content
+{
+    width: 30ch;
+}
+
+@media(max-width:360px)
+{
+    .App-Content
+    {
+        width: 90vw;
+    }
+}
