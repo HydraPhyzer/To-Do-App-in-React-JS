@@ -1,24 +1,21 @@
 import React from 'react'
 import './Todo.css'
 
-const Todo = () => {
+const Todo = (Props) => {
   return (
     <div className='Todo'>
-        <div className="All-Todo">
-            <p>Lorem ipsum, dolor sit amet consecte</p>
-            <i className="fa-solid fa-marker E"></i>
-            <i className="fa-solid fa-circle-xmark X"></i>
-        </div>
-        <div className="All-Todo">
-            <p>Lorem ipsum, dolor sit amet consecte</p>
-            <i className="fa-solid fa-marker E"></i>
-            <i className="fa-solid fa-circle-xmark X"></i>
-        </div>
-        <div className="All-Todo">
-            <p>Lorem ipsum, dolor sit amet consecte</p>
-            <i className="fa-solid fa-marker E"></i>
-            <i className="fa-solid fa-circle-xmark X"></i>
-        </div>
+        {
+            Props.GetTodos.map((Elem,Ind)=>
+            {
+                return(
+                    <div className="All-Todo" key={Ind}>
+                        <p>{Elem}</p>
+                        <i className="fa-solid fa-marker E"></i>
+                        <i className="fa-solid fa-circle-xmark X" onClick={()=>{Props.Del(Ind)}}></i>
+                    </div>
+                )
+            })
+        }
     </div>
   )
 }
